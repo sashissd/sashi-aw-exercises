@@ -82,6 +82,9 @@ repository context. Do not invent missing details.
 Define the evidence required for a bug and for a feature or task.
 Define what the workflow should do when essential information is missing.
 -->
+if the user opens a issue and reports a bug , ensure that enoungh information is present for the maintainer to act upon. At minimum, the reporter should supply OS type and cersion, hardware platform, browser type and version they are using id this is a GUI application , ask them to supply simple screenshots of the bug if possible. 
+
+ if any of the information is missing, apply the  `needs-info` label
 
 If the issue is clearly spam, gibberish, or a test submission, apply `spam` or
 `invalid` when available, explain the assessment briefly, and stop.
